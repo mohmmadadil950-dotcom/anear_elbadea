@@ -1,0 +1,18 @@
+analyzer:
+  errors:
+    todo: ignore
+  exclude:
+    - "**/*.g.dart"
+    - build/**
+    - windows/**
+    - web/**
+    - android/**
+    - ios/**
+
+linter:
+  rules:
+    - avoid_print
+    - prefer_const_constructors
+    - prefer_final_locals
+    - unnecessary_this
+    - always_declare_return_types
